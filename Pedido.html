@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    <img src="./mia.jpg" width="150">
+</head>
+
+<body>
+    <br>
+    <h1>Pedido</h1>
+    <h2>Llena el formulario para realizar tu orden</h2>
+    <p>*Si quieres ir al Menu de nuevo, da click en el siguiente boton.*</p>
+    <button>
+        <a href="./Menu.html" target="blank">Menu</a>
+    </button>
+
+    <br><br>
+    <form action="pedido.js">
+        <h4>FORMULARIO</h4>
+        <label for="Nombre">Ingresa tu nombre: </label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+        <label for="Telefono">Ingresa tu telefono: </label>
+        <input type="tel" id="Telefono" name="Telefono" placeholder="Telefono">
+
+        <br><br>
+        <label for="Correo">Ingresa tu correo: </label>
+        <input type="email" name="Correo" id="Correo" placeholder="Correo">
+
+        <br><br>
+        <label for="Desc">Ingresa una Descripcion general de tu pastel: </label>
+        <input type="text" name="Desc" id="Desc" placeholder="Descripcion">
+
+        <br><br>
+        <h4>Color</h4>
+        <input type="radio" name="color" id="Blanco" value="Blanco">
+        <label for="Blanco">Blanco</label>
+        <input type="radio" name="color" id="Rosa" value="Rosa">
+        <label for="Rosa">Rosa</label>
+        <input type="radio" name="color" id="Rojo" value="Rojo">
+        <label for="Rojo">Rojo</label>
+        <input type="radio" name="color" id="Azul" value="Azul">
+        <label for="Azul">Azul</label>
+        
+        <br><br>
+        <h4>Selecciona el Sabor</h4>
+        <input type="checkbox" name="Chocolate" id="Chocolate" value="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+        <br>
+        <input type="checkbox" name="Fresa" id="Fresa" value="Fresa">
+        <label for="Fresa">Fresa</label>
+        <br>
+        <input type="checkbox" name="Vainilla" id="Vainilla" value="Vainilla">
+        <label for="Vainilla">Vainilla</label>
+        <br>
+        <input type="checkbox" name="Almendras" id="Almendras" value="Almendras">
+        <label for="Almendras">Almendras</label>
+        <br>
+        <input type="checkbox" name="Frutas" id="Frutas" value="Frutas">
+        <label for="Frutas">Frutas</label>
+        <br>
+        <input type="checkbox" name="3Leches" id="3Leches" value="3Leches">
+        <label for="3Leches">Tres Leches</label>
+
+        <br><br>
+        <h4>Selecciona tu decoracion</h4>
+        <input type="checkbox" name="Fruta" id="Fruta" value="Fruta">
+        <label for="Fruta">Fruta Seca</label>
+        <br>
+        <input type="checkbox" name="Floral" id="Floral" value="Floral">
+        <label for="Floral">Floral</label>
+        <br>
+        <input type="checkbox" name="Crema" id="Crema" value="Crema">
+        <label for="Crema">Crema de Chocolate</label>
+        <br>
+        <input type="checkbox" name="Drip" id="Drip" value="Drip">
+        <label for="Drip">Drip Cackes</label>
+        <br>
+
+        <br><br><br>
+        <button>
+            <a href="" target="blank">Realizar</a>
+        </button>
+    </form>
+</body>
+
+</html>
